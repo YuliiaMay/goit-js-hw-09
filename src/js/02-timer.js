@@ -13,6 +13,7 @@ const refs = {
     hoursValue: document.querySelector('[data-hours]'),
     minutesValue: document.querySelector('[data-minutes]'),
     secondsValue: document.querySelector('[data-seconds]'),
+    button: document.querySelector('button')
 };
 
 refs.button.setAttribute('disabled', true);
