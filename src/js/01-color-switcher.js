@@ -31,7 +31,7 @@ function onStartBtnClick() {
         refs.body.style.backgroundColor = getRandomHexColor();
 
         console.log(`body color is ${getRandomHexColor()}`);
-    }, 1200)
+    }, 1000)
 };
 
 
